@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthSettings_Audience" xml:space="preserve">
+    <value>AuthSettings:Audience</value>
+    <comment>Người nhận</comment>
+  </data>
+  <data name="AuthSettings_Issuer" xml:space="preserve">
+    <value>AuthSettings:Issuer</value>
+    <comment>Chủ sở hữu</comment>
+  </data>
+  <data name="AuthSettings_Key" xml:space="preserve">
+    <value>AuthSettings:Key</value>
+    <comment>Chìa khoá</comment>
+  </data>
+  <data name="AuthSettings_RefreshTokenValidityInDays" xml:space="preserve">
+    <value>AuthSettings:RefreshTokenValidityInDays</value>
+    <comment>Số ngày refresh token hợp lệ </comment>
+  </data>
+  <data name="AuthSettings_TokenValidityInMinutes" xml:space="preserve">
+    <value>AuthSettings:TokenValidityInMinutes</value>
+    <comment>Số phút access token hợp lệ</comment>
+  </data>
+  <data name="DevMsg_DeleteEmployeesFailed" xml:space="preserve">
+    <value>Delete in database return 0</value>
+    <comment>Message cho Dev đọc khi Xoá nhân viên thất bại</comment>
+  </data>
+  <data name="DevMsg_Exception" xml:space="preserve">
+    <value>It was not possible to connect the redis server(s)</value>
+    <comment>Message cho Dev đọc khi có lỗi xảy ra</comment>
+  </data>
+  <data name="DevMsg_FilterEmployeeFailed" xml:space="preserve">
+    <value>Filter employees in database return 0</value>
+    <comment>Message cho Dev đọc khi Lọc nhân viên thất bại</comment>
+  </data>
+  <data name="DevMsg_GetEmployeeByIDFailed" xml:space="preserve">
+    <value>Get employee by ID in database return 0</value>
+    <comment>Message cho Dev đọc khi Lấy nhân viên theo ID thất bại</comment>
+  </data>
+  <data name="DevMsg_GetEmployeesFailed" xml:space="preserve">
+    <value>Get from database return 0</value>
+    <comment>Message cho Dev đọc khi Lấy danh sách nhân viên thất bại</comment>
+  </data>
+  <data name="DevMsg_InsertEmployeeFailed" xml:space="preserve">
+    <value>Insert to database return 0</value>
+    <comment>Message cho Dev đọc khi Insert bản ghi vào database thất bại</comment>
+  </data>
+  <data name="DevMsg_UpdateEmployeesFailed" xml:space="preserve">
+    <value>Update in database return 0</value>
+    <comment>Message cho Dev đọc khi Sửa nhân viên thất bại</comment>
+  </data>
+  <data name="Employee_EmployeeCode_IdentityDateLessThanDOB" xml:space="preserve">
+    <value>Ngày cấp không được nhỏ hơn ngày sinh</value>
+    <comment>Message cho User đọc khi Sửa hoặc thêm nhân viên thất bại</comment>
+  </data>
+  <data name="Employee_EmployeeCode_NotDuplicate" xml:space="preserve">
+    <value>Mã nhân viên đã tồn tại</value>
+    <comment>Message cho User đọc khi Sửa hoặc thêm nhân viên thất bại</comment>
+  </data>
+  <data name="Excel_FileName" xml:space="preserve">
+    <value>danh_sach_nhan_vien</value>
+    <comment>Ten của file excel</comment>
+  </data>
+  <data name="Excel_Title" xml:space="preserve">
+    <value>DANH SÁCH NHÂN VIÊN</value>
+    <comment>Tiêu đề của file excel</comment>
+  </data>
+  <data name="MoreInfo_DeleteEmployeeFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới trang mô tả lỗi Xoá nhân viên thất bại</comment>
+  </data>
+  <data name="MoreInfo_DuplicateEntry" xml:space="preserve">
+    <value>Không thể thêm hoặc cập nhật do trùng lặp thông tin</value>
+    <comment>Message cho User đọc khi Sửa hoặc thêm nhân viên thất bại</comment>
+  </data>
+  <data name="MoreInfo_Exception" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới trang mô tả lỗi có lỗi xảy ra</comment>
+  </data>
+  <data name="MoreInfo_FilterEmployeeFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới trang mô tả lỗi Lọc nhân viên thất bại</comment>
+  </data>
+  <data name="MoreInfo_ForeignKeyConstraint" xml:space="preserve">
+    <value>Không thể thêm hoặc cập nhật do ràng buộc khóa ngoại</value>
+    <comment>Message cho User đọc khi Sửa hoặc thêm nhân viên thất bại</comment>
+  </data>
+  <data name="MoreInfo_GetEmployeeByIDFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới trang mô tả lỗi Lấy nhân viên theo ID thất bại</comment>
+  </data>
+  <data name="MoreInfo_GetEmployeeFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới trang mô tả lỗi Lấy danh sách nhân viên thất bại</comment>
+  </data>
+  <data name="MoreInfo_IDNotMatch" xml:space="preserve">
+    <value>ID truyền vào bị sai</value>
+    <comment>Message khi truyền mã ID sai</comment>
+  </data>
+  <data name="MoreInfo_InsertEmployeeFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới trang mô tả lỗi Insert bản ghi và database thất bại</comment>
+  </data>
+  <data name="MoreInfo_UpdateEmployeeFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới trang mô tả lỗi Sửa nhân viên thất bại</comment>
+  </data>
+  <data name="MoreInfo_ValidateError" xml:space="preserve">
+    <value>Có lỗi xảy ra trong quá trình xác minh dữ liệu</value>
+    <comment>Message cho User đọc khi có lỗi xảy ra trong quá trình xác minh dữ liệu</comment>
+  </data>
+  <data name="Proc_Delete" xml:space="preserve">
+    <value>Proc_{0}_Delete</value>
+    <comment>Template String cho procedure xoá 1 bản ghi trong 1 bảng</comment>
+  </data>
+  <data name="Proc_Filter" xml:space="preserve">
+    <value>Proc_{0}_Filter</value>
+    <comment>Template String cho procedure lấy các bản ghi theo các tiêu chí</comment>
+  </data>
+  <data name="Proc_GetAll" xml:space="preserve">
+    <value>Proc_{0}_GetAll</value>
+    <comment>Template String cho procedure Lấy tất cả bản ghi của 1 bảng</comment>
+  </data>
+  <data name="Proc_GetByID" xml:space="preserve">
+    <value>Proc_{0}_GetByID</value>
+    <comment>Template String cho procedure Lấy bản ghi của 1 bảng theo ID</comment>
+  </data>
+  <data name="Proc_GetByName" xml:space="preserve">
+    <value>Proc_{0}_GetByName</value>
+    <comment>Template String cho procedure Lấy bản ghi của 1 bảng theo tên</comment>
+  </data>
+  <data name="Proc_GetNewCode" xml:space="preserve">
+    <value>Proc_{0}_GetNewCode</value>
+    <comment>Template String cho procedure lấy code lớn nhất của 1 bản ghi</comment>
+  </data>
+  <data name="Proc_GetUserByAccount" xml:space="preserve">
+    <value>Proc_{0}_GetUserByAccount</value>
+    <comment>Template String cho procedure Lấy thông tin người dùng theo tài khoản</comment>
+  </data>
+  <data name="Proc_GetValidEmployeeCode" xml:space="preserve">
+    <value>Proc_{0}_GetValidEmployeeCode</value>
+    <comment>Template String cho procedure Lấy mã nhân viên không lặp </comment>
+  </data>
+  <data name="Proc_Insert" xml:space="preserve">
+    <value>Proc_{0}_Insert</value>
+    <comment>Template String cho procedure thêm 1 bản ghi vào 1 bảng</comment>
+  </data>
+  <data name="Proc_Register" xml:space="preserve">
+    <value>Proc_{0}_Register</value>
+    <comment>Template String cho procedure đăng ký tài khoản người dùng</comment>
+  </data>
+  <data name="Proc_Update" xml:space="preserve">
+    <value>Proc_{0}_Update</value>
+    <comment>Template String cho procedure sửa 1 bản ghi trong 1 bảng</comment>
+  </data>
+  <data name="Role_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Role_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserMsg_DeleteEmployeeFailed" xml:space="preserve">
+    <value>Xoá nhân viên thất bại</value>
+    <comment>Message cho User đọc khi Xoá nhân viên thất bại</comment>
+  </data>
+  <data name="UserMsg_Exception" xml:space="preserve">
+    <value>Ðã có lỗi xảy ra! Vui lòng liên hệ MISA</value>
+    <comment>Message cho User đọc khi có lỗi xảy ra</comment>
+  </data>
+  <data name="UserMsg_FilterEmployeeFailed" xml:space="preserve">
+    <value>Lọc nhân viên thất bại</value>
+    <comment>Message cho User đọc khi Lọc nhân viên thất bại</comment>
+  </data>
+  <data name="UserMsg_GetEmployeeByIDFailed" xml:space="preserve">
+    <value>Lấy nhân viên theo ID thất bại</value>
+    <comment>Message cho User đọc khi Lấy nhân viên theo ID thất bại</comment>
+  </data>
+  <data name="UserMsg_GetEmployeeFailed" xml:space="preserve">
+    <value>Lấy danh sách nhân viên thất bại</value>
+    <comment>Message cho User đọc khi Lấy danh sách nhân viên thất bại</comment>
+  </data>
+  <data name="UserMsg_InsertEmployeeFailed" xml:space="preserve">
+    <value>Thêm mới nhân viên thất bại</value>
+    <comment>Message cho User đọc khi Insert bản ghi vào database thất bại</comment>
+  </data>
+  <data name="UserMsg_UpdateEmployeeFailed" xml:space="preserve">
+    <value>Sửa nhân viên thất bại</value>
+    <comment>Message cho User đọc khi Sửa nhân viên thất bại</comment>
+  </data>
+</root>
